@@ -1,66 +1,97 @@
-<!-- ===================== HERO SECTION ===================== -->
-<h1 align="center" style="font-size:40px;">
-  📈 Sales Forecasting using Linear Regression
+<!-- ===================== HERO ===================== -->
+<h1 align="center" style="
+  font-size:42px;
+  animation: fadeSlide 2s ease-in-out;
+">
+📈 Sales Forecasting using Linear Regression
 </h1>
 
-<p align="center" style="font-size:16px; color:gray;">
-  Machine Learning project for predicting future sales using regression models
+<p align="center" style="
+  font-size:16px;
+  color:gray;
+  animation: fadeSlide 2.5s ease-in-out;
+">
+Machine Learning project for predicting future sales using regression models
 </p>
 
 <p align="center">
-  <img src="https://img.icons8.com/color/96/combo-chart--v1.png"/>
-  <img src="https://img.icons8.com/color/96/artificial-intelligence.png"/>
-  <img src="https://img.icons8.com/color/96/python.png"/>
+  <img src="https://img.icons8.com/color/96/combo-chart--v1.png"
+       style="animation: float 3s ease-in-out infinite;">
+  <img src="https://img.icons8.com/color/96/artificial-intelligence.png"
+       style="animation: float 3s ease-in-out infinite 0.5s;">
+  <img src="https://img.icons8.com/color/96/python.png"
+       style="animation: float 3s ease-in-out infinite 1s;">
 </p>
 
 <p align="center">
-  <span style="background:#28a745;color:white;padding:6px 12px;border-radius:20px;">Active</span>
-  <span style="background:#007bff;color:white;padding:6px 12px;border-radius:20px;">Linear Regression</span>
-  <span style="background:#f1c40f;color:black;padding:6px 12px;border-radius:20px;">Python</span>
+  <span style="background:#28a745;color:white;padding:6px 14px;border-radius:20px;">Active</span>
+  <span style="background:#007bff;color:white;padding:6px 14px;border-radius:20px;">Linear Regression</span>
+  <span style="background:#f1c40f;color:black;padding:6px 14px;border-radius:20px;">Python</span>
 </p>
 
-<hr>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3"/>
+</p>
+
+<!-- ===================== ANIMATIONS ===================== -->
+<style>
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+</style>
 
 <!-- ===================== OVERVIEW ===================== -->
 <h2>🚀 Project Overview</h2>
 
-<div style="background:#f8f9fa;padding:15px;border-left:5px solid #007bff;border-radius:6px;">
+<div style="
+  background:#f8f9fa;
+  padding:16px;
+  border-left:5px solid #007bff;
+  border-radius:6px;
+">
 This project implements a <b>Sales Forecasting System</b> using
-<b>Linear Regression</b> to predict future sales based on historical business data.
+<b>Linear Regression</b> to analyze historical sales data and predict future sales.
 </div>
 
 <ul>
-  <li>🎓 Academic / College project</li>
-  <li>📊 Business-focused ML use case</li>
+  <li>🎓 College mini / major project</li>
+  <li>📊 Business-oriented Machine Learning use case</li>
   <li>💡 Beginner-friendly regression model</li>
-  <li>💼 Portfolio-ready GitHub repository</li>
+  <li>💼 Portfolio-ready GitHub project</li>
 </ul>
 
-<hr>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3"/>
+</p>
 
 <!-- ===================== PROBLEM ===================== -->
 <h2>🧠 Problem Statement</h2>
 
 <p>
-Businesses rely on accurate sales forecasts for inventory planning,
-marketing strategy, and revenue growth.
+Accurate sales forecasting is essential for inventory management,
+business planning, and revenue optimization.
 </p>
 
 <p>
-Manual forecasting is inefficient and error-prone.
+Manual forecasting methods are time-consuming and error-prone.
 </p>
 
 <p style="font-weight:bold;color:#007bff;">
-👉 Machine Learning automates sales prediction using mathematical models.
+👉 Machine Learning automates sales prediction using mathematical regression models.
 </p>
-
-<hr>
 
 <!-- ===================== DATASET ===================== -->
 <h2>📂 Dataset Information</h2>
 
 <p>
-Dataset used: <code>sales.csv</code>
+Dataset file: <code>sales.csv</code>
 </p>
 
 <table border="1" cellpadding="8" cellspacing="0" width="100%">
@@ -70,40 +101,39 @@ Dataset used: <code>sales.csv</code>
 </tr>
 <tr><td>Date / Index</td><td>Time reference</td></tr>
 <tr><td>Advertising Spend</td><td>Marketing cost</td></tr>
-<tr><td>Units Sold</td><td>Products sold</td></tr>
+<tr><td>Units Sold</td><td>Number of products sold</td></tr>
 <tr><td><b>Sales</b></td><td>Target variable</td></tr>
 </table>
 
-<hr>
-
-<!-- ===================== METHODOLOGY ===================== -->
-<h2>⚙️ Methodology</h2>
+<!-- ===================== PIPELINE ===================== -->
+<h2>🔁 Machine Learning Pipeline</h2>
 
 <p align="center">
-  <img src="https://img.icons8.com/color/48/database.png"/> →
-  <img src="https://img.icons8.com/color/48/broom.png"/> →
-  <img src="https://img.icons8.com/color/48/combo-chart.png"/> →
-  <img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> →
-  <img src="https://img.icons8.com/color/48/checked.png"/>
+  <img src="https://img.icons8.com/color/64/database.png"/> →
+  <img src="https://img.icons8.com/color/64/broom.png"/> →
+  <img src="https://img.icons8.com/color/64/line-chart.png"/> →
+  <img src="https://img.icons8.com/color/64/artificial-intelligence.png"/> →
+  <img src="https://img.icons8.com/color/64/checked.png"/>
 </p>
 
 <p align="center">
-Data Collection → Cleaning → Feature Selection → Model Training → Prediction
+Data → Cleaning → Training → Prediction → Evaluation
 </p>
-
-<hr>
 
 <!-- ===================== RUN ===================== -->
-<h2>▶️ How to Run</h2>
+<h2>▶️ How to Run the Project</h2>
 
-<pre style="background:#000;color:#0f0;padding:15px;border-radius:6px;">
+<pre style="
+background:#000;
+color:#0f0;
+padding:15px;
+border-radius:6px;
+">
 git clone https://github.com/Nandan0402/sales-forecasting-linear-regression-ml.git
 cd sales-forecasting-linear-regression-ml
 pip install pandas numpy scikit-learn matplotlib
 python model/sales_prediction.py
 </pre>
-
-<hr>
 
 <!-- ===================== EVALUATION ===================== -->
 <h2>📊 Model Evaluation</h2>
@@ -111,32 +141,45 @@ python model/sales_prediction.py
 <ul>
   <li>📉 Mean Squared Error (MSE)</li>
   <li>📊 Mean Absolute Error (MAE)</li>
-  <li>📈 Actual vs Predicted Sales Visualization</li>
+  <li>📈 Actual vs Predicted Sales visualization</li>
 </ul>
 
-<div style="background:#e8f5e9;padding:12px;border-left:5px solid #28a745;">
+<div style="
+background:#e8f5e9;
+padding:12px;
+border-left:5px solid #28a745;
+">
 Lower error values indicate better prediction accuracy.
 </div>
 
-<hr>
+<!-- ===================== LEARNING ===================== -->
+<h2>🎯 Learning Outcomes</h2>
+
+<ul>
+  <li>Understanding Linear Regression</li>
+  <li>Working with real-world business datasets</li>
+  <li>Model training & evaluation</li>
+  <li>Data visualization techniques</li>
+  <li>End-to-end ML workflow</li>
+</ul>
 
 <!-- ===================== USE CASES ===================== -->
 <h2>📌 Use Cases</h2>
 
 <ul>
   <li>🏢 Business sales forecasting</li>
-  <li>📦 Inventory management</li>
-  <li>📊 Market trend analysis</li>
-  <li>🎓 Machine Learning education</li>
+  <li>📦 Inventory planning</li>
+  <li>📊 Market analysis</li>
+  <li>🎓 Academic ML projects</li>
 </ul>
-
-<hr>
 
 <!-- ===================== AUTHOR ===================== -->
 <h2>👤 Author</h2>
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/Nandan0402" width="120" style="border-radius:50%;border:3px solid #007bff"/>
+  <img src="https://avatars.githubusercontent.com/Nandan0402"
+       width="120"
+       style="border-radius:50%;border:3px solid #007bff;">
 </p>
 
 <p align="center">
@@ -149,13 +192,14 @@ BCA Student | Machine Learning Enthusiast
 <a href="https://www.linkedin.com/in/nandan-b-2a9b1b334/">LinkedIn</a>
 </p>
 
-<hr>
-
+<!-- ===================== CONCLUSION ===================== -->
 <h2>⭐ Conclusion</h2>
 
 <p>
 This project demonstrates how <b>Linear Regression</b> can be applied to
-real-world sales forecasting with a clean and structured ML workflow.
+real-world sales forecasting problems using Machine Learning.
 </p>
 
-<p><b>⭐ Star the repository if you found this useful.</b></p>
+<p align="center" style="font-size:18px;">
+⭐ If this project helped you, please <b>Star</b> the repository
+</p>
