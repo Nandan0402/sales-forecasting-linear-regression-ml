@@ -33,20 +33,6 @@ Machine Learning project for predicting future sales using regression models
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3"/>
 </p>
 
-<!-- ===================== ANIMATIONS ===================== -->
-<style>
-@keyframes fadeSlide {
-  from { opacity: 0; transform: translateY(-20px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes float {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-12px); }
-  100% { transform: translateY(0); }
-}
-</style>
-
 <!-- ===================== OVERVIEW ===================== -->
 <h2>🚀 Project Overview</h2>
 
